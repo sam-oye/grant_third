@@ -4,4 +4,5 @@ deployment:
     - export NODE_ENV=production
     - npm install
     - npm run build
-    - cp -r build/* public_html/
+    - rm -rf public_html/*
+    - cp -r dist/* public_html/
