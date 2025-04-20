@@ -17,9 +17,7 @@ export default function Footer() {
             ? "text-[3.5vw] md:text-[1.5vw]"
             : "text-[30px]"
         }`}
-      >
-        Powered by National Open University of Nigeria
-      </Link>
+      ></Link>
     </div>
   );
 }

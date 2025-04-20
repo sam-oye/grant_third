@@ -133,7 +133,7 @@ const FractionInputApp = () => {
         case "Second Derivative Collocation":
           return "Collocation is a technique used to solve differential equations by enforcing that the approximate solution satisfies the equation exactly at a finite number of selected points. These second derivatives nodes(points) are denoted has g.";
         case "Third Derivative Collocation":
-          return "Collocation is a technique used to solve differential equations by enforcing that the approximate solution satisfies the equation exactly at a finite number of selected points. These third derivatives nodes(points) are denoted has q.";
+          return "Collocation is a technique used to solve differential equations by enforcing that the approximate solution satisfies the equation exactly at a finite number of selected points. These third derivatives nodes(points) are denoted has z.";
 
         default:
           return "";
@@ -177,9 +177,9 @@ const FractionInputApp = () => {
             The LMM Generator is a web-based application designed to automate
             the derivation of Linear Multistep Methods (LMMs) for solving
             ordinary differential equations. By leveraging interpolation and
-            collocation techniques, the tool efficiently generates LMMs of first
-            and second derivative methods, eliminating the need for manual
-            computation.
+            collocation techniques, the tool efficiently generates LMMs of
+            first, second and third derivative methods, eliminating the need for
+            manual computation.
           </p>
           <div className="items-start">
             {groupData.map((group, groupIndex) => (
